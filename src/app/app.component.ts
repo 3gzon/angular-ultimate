@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'ultimate-course';
+  title: string;
+  constructor() {
+    this.title = "Angular course"
+  }
 }
